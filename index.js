@@ -15,10 +15,10 @@ connectDB();
 
 
 //import all routes here.
-const gamingRouter = require('./routers/gaming.route.js');
+const gameRouter = require('./routers/gaming.route.js');
 
 
-app.use('/api/gaming',gamingRouter);
+app.use('/api/gaming',gameRouter);
 
 
 
